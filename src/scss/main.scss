@@ -1,0 +1,16 @@
+// Default variable overrides 밑에 연결 파일에 모두 영향을 준다. 때문에 색상 관련해서는 variables 위에 미리 선언해주어야 한다.
+$primary: #fdc000;
+$container-max-widths:(
+        sm:540px,
+        md:704px,
+        lg:924px,
+        xl:1140px,
+        xxl:1364px
+);
+
+// Required= 부트스트랩 연결
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

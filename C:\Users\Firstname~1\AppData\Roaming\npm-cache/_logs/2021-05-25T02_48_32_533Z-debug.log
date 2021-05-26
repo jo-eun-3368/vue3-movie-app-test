@@ -1,0 +1,15 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'dev' ]
+2 info using npm@6.14.11
+3 info using node@v14.15.5
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle webpack-basic@1.0.0~predev: webpack-basic@1.0.0
+6 info lifecycle webpack-basic@1.0.0~dev: webpack-basic@1.0.0
+7 verbose lifecycle webpack-basic@1.0.0~dev: unsafe-perm in lifecycle true
+8 verbose lifecycle webpack-basic@1.0.0~dev: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/whdms3368/Desktop/vue3-movie-app/node_modules/.bin:/usr/local/opt/php@7.4/sbin:/usr/local/opt/php@7.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/whdms3368/Desktop/vue3-movie-app/node_modules/.bin
+9 verbose lifecycle webpack-basic@1.0.0~dev: CWD: /Users/whdms3368/Desktop/vue3-movie-app
+10 silly lifecycle webpack-basic@1.0.0~dev: Args: [ '-c', 'webpack-dev-server --mode development' ]
+11 timing npm Completed in 6280154ms
+12 error cb() never called!
+13 error This is an error with npm itself. Please report this error at:
+14 error <https://npm.community>
